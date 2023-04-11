@@ -1,0 +1,19 @@
+.footer-container{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-kasa-footer{
+    width: 50px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.copyright-footer{
+    color: white;
+}

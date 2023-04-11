@@ -1,0 +1,19 @@
+.navigation-container{
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo-kasa{
+    width: 120px;
+    height: 100px;
+    /* margin: 0px 15px; */
+}
+
+nav .link{
+    display: flex;
+    margin: 10px 30px;
+}
+
