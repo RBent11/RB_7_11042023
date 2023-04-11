@@ -8,6 +8,7 @@ function Banner({image, texte}) {
         
 
             <h1>{texte}</h1>
+            <span className="shadow"></span>
             <img src={image} alt="cover-banner"/>
 
 

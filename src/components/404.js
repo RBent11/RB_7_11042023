@@ -1,9 +1,11 @@
+import "./styles/404.css"
+
 function NotFound(){
     return(
-        <div className="404-container">
-            <h6 className="404-title">404</h6>
-            <h4 className="404-message">Oups ! La page que vous demandez n'existe pas.</h4>
-            <a href="#" className="404-link">Retournez à la page d'accueil</a>
+        <div className="container-404">
+            <h6 className="title-404">404</h6>
+            <h4 className="message-404">Oups ! La page que vous demandez n'existe pas.</h4>
+            <a href="#" className="link-404">Retournez à la page d'accueil</a>
         </div>
         
     )
