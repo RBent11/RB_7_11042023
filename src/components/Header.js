@@ -7,7 +7,7 @@ import {NavLink } from 'react-router-dom'
 function Header(){
     return(
     <header className="navigation-container">
-        <img src={logo} className="logo-kasa" />
+        <img src={logo} className="logo-kasa" alt=""/>
         <nav>
            <NavLink to="/" className="link" style={({ isActive }) => ({ 
                             textDecoration: isActive ? 'underline' : 'none' })}>Accueil</NavLink>
