@@ -11,4 +11,21 @@
     grid-gap: 1em;
     border-radius: 20px;
     padding-bottom: 20px;
+    
+}
+
+@media all and (min-width: 300px) and (max-width: 450px){
+    .appartment-list {
+
+        width: 100vw;
+        background-color: #fff;
+        margin: 20px auto;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        grid-gap: 1em;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        
+    }
 }

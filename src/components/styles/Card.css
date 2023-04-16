@@ -11,6 +11,7 @@
 	width: 340px;
 	border-radius: 20px;
     
+    
 }
 
 .appartment-title{
@@ -18,6 +19,26 @@
     bottom: 25px;
     left:25px;
     color:white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     white-space: wrap;
+    z-index: 4;
+}
+
+.shadow-box{
+    border-radius: 20px;
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    z-index: 3;
+    background: linear-gradient(to bottom, #fff, black);
+    opacity: 0.3;
+}
+
+@media all and (min-width: 300px) and (max-width: 450px){
+    .appartment-item {
+        margin: 20px;
+        position: relative;
+        height: 320px;
+        width: 320px;
+        
+    }
 }
