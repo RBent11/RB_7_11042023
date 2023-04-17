@@ -3,13 +3,16 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     padding: 0 20px;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 .logo-kasa{
-    width: 120px;
-    height: 100px;
-    /* margin: 0px 15px; */
+    width: 150px;
+    height: auto;
+
 }
 
 nav{
@@ -21,5 +24,29 @@ nav .link{
     margin: 10px;
 }
 
+@media all and (min-width: 460px) and (max-width: 768px){
+    .navigation-container{
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 280px) and (max-width: 450px){
+
+    .navigation-container{
+        width: 100%;
+    }
+
+    .logo-kasa{
+        width: 120px;
+        
+       
+    }
+
+    nav .link{
+        text-transform: uppercase;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}
 
 

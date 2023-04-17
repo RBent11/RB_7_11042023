@@ -4,25 +4,19 @@ import './styles/AppartList.css'
 import { NavLink } from "react-router-dom"
 
 function AppartList(){
-    return(
-       
+    return(      
             <div className = 'appartment-list'> 
-                
-                    {logements.map(({id, title, cover})=>(
-                        <Card
+                {/* Récupération de la liste de logement avec images et titres grâce à la méthode map */}
+                {logements.map(({id, title, cover})=>(
+                    <Card
                         key = {id}
                         id = {id}
                         title={title}
                         cover={cover} 
-                        />
-                    ))}
+                    />
+                ))}
 
-
-                   
             </div>
-        
-        
-
     )
 }
 

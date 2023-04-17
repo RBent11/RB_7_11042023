@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom"
 import "./styles/404.css"
 
+// Componenent qui affiche le 404 + le message + le lien pour revenir à l'accueil
 
 function NotFound(){
     return(

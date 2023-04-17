@@ -43,7 +43,7 @@
     opacity: 0.3;
 }
 
-@media all and (min-width: 300px) and (max-width: 450px){
+@media all and (min-width: 460px) and (max-width: 768px){
     .kasa-banner{
         height: 150px;
         object-fit: cover;
@@ -53,6 +53,25 @@
     .kasa-banner h1{
         font-size: 26px;
         padding: 10px;
+    }
+
+    .kasa-banner img{
+        bottom : -50px;
+    }
+}
+
+@media all and (min-width: 280px) and (max-width: 450px){
+    .kasa-banner{
+        height: 150px;
+        object-fit: cover;
+        width: 90vw;
+    }
+
+    .kasa-banner h1{
+        font-size: 28px;
+        padding: 10px;
+        text-align:start;
+        
     }
 
     .kasa-banner img{
