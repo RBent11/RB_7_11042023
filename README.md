@@ -6,7 +6,7 @@
 - Intégrer un routeur avec React-router
 - Récupérer dynamiquement de la data depuis un fichier json
 
-## Technologie utilisée
+## Technologies utilisées
 
 - React v18.2.0
 - React-router-dom v6.10.0
