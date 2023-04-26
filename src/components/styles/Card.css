@@ -1,5 +1,4 @@
 .appartment-item {
-
     position: relative;
     height: 320px;
 	width: 320px;
@@ -11,8 +10,7 @@
 	height: 100%;
 	width: 100%;
 	border-radius: 20px;
-    
-    
+    object-fit: cover; 
 }
 
 .appartment-title{

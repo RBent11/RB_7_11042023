@@ -1,13 +1,14 @@
 import "./styles/Header.css"
 import logo from '../assets/logo192.png'
-import {NavLink } from 'react-router-dom'
+import {NavLink, Link } from 'react-router-dom'
 
 
 
 function Header(){
     return(
     <header className="navigation-container">
-        <img src={logo} className="logo-kasa" alt=""/>
+        <Link to="/" className="link-home"><img src={logo} className="logo-kasa" alt=""/></Link>
+        
         <nav>
            <NavLink to="/" className="link" style={({ isActive }) => ({ 
                             textDecoration: isActive ? 'underline' : 'none' })}>Accueil</NavLink>
