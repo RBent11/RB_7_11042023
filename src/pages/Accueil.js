@@ -1,4 +1,3 @@
-import "./styles/Accueil.css"
 import Header from "../components/Header"
 import Banner from "../components/Banner"
 import AppartList from "../components/AppartList"
