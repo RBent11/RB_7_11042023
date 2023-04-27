@@ -15,6 +15,18 @@
 
 https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3-0
 
+## Installer le projet
+
+1) A la racine du projet, lancer la commande :
+
+`npm install`
+
+2) Une fois l'installation terminée, pour lancer le projet, exécuter la commande :
+
+`npm start`
+
+Le projet se lancera par défaut sur le port 3000.
+
 ## Spécificités techniques attendues
 
 - Pour le défilement des photos dans la galerie (composant Gallery) :
